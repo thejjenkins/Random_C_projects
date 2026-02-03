@@ -2,18 +2,18 @@
 #include <stdlib.h>
 #include <stdint.h>
 
-#define WIDTH 600
-#define HEIGHT 600
+#define WIDTH 800
+#define HEIGHT 800
 #define x0 WIDTH/2.0
-#define y0 HEIGHT/2.0
+#define y0 HEIGHT/10.0
 #define POINTS 0xffffU
-#define GRAVITY 9.81
+#define GRAVITY 1.5
 
 double r1 = 100.0;
-double r2 = 100.0;
+double r2 = 250.0;
 double m1 = 5.0;
 double m2 = 1.0;
-double theta1 = SDL_PI_D/2;
+double theta1 = 3*SDL_PI_D/2;
 double theta2 = SDL_PI_D/2;
 double theta1_vel = 0.0;
 double theta2_vel = 0.0;
@@ -116,7 +116,7 @@ int main()
 			"Double Pendulum",
 		       	WIDTH,
 		       	HEIGHT,
-		       	0,
+		       	SDL_WINDOW_RESIZABLE,
 		       	&w,
 		       	&r);
 
