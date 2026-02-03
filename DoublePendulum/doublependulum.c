@@ -7,7 +7,7 @@
 #define x0 WIDTH/2.0
 #define y0 HEIGHT/10.0
 #define POINTS 0xffffU
-#define GRAVITY 1.5
+#define GRAVITY 2.0
 
 double r1 = 100.0;
 double r2 = 250.0;
