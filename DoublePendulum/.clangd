@@ -1,0 +1,4 @@
+CompileFlags:
+  Add: [
+    -IC:/SDL3/include
+  ]
