@@ -98,7 +98,7 @@ void show_double_pendulum(SDL_Renderer *r, SDL_FPoint* trace)
 }
 
 
-int main(int argc, char *argv[])
+int main()
 {
 	double x1 = x0+r1*SDL_sin(theta1);
 	double y1 = y0+r1*SDL_cos(theta1);
